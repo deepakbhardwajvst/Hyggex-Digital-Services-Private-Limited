@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bg {
+  border-radius: 42.507px;
+  background: linear-gradient(
+    223deg,
+    #051a91 -4.31%,
+    #061c93 14.41%,
+    #2284f1 81.88%,
+    #1f80eb 103.81%
+  );
+}
+
+.underline-blue {
+  text-decoration: underline;
+  text-decoration-color: #06286e; /* Blue color code */
+  text-decoration-thickness: 2px; /* Increase the width of the underline */
+}
