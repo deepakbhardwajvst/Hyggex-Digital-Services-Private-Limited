@@ -1,9 +1,9 @@
 
-import Navbar from "./components/navbar";
-import Navgation from "./components/navgation";
-import CreateFlashCard from "./components/createFlashCard";
-import Faq from "./components/faq";
-import RelationFunction from "./components/relationfunction";
+import Navbar from "./components/navbar.jsx";
+import Navgation from "./components/navgation.jsx";
+import CreateFlashCard from "./components/createFlashCard.jsx";
+import Faq from "./components/faq.jsx";
+import RelationFunction from "./components/relationfunction.jsx";
 
 const App = () => {
   return (
