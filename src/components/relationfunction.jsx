@@ -1,6 +1,6 @@
 
 import "../../src/index.css";
-// import StudyQuizTestGame from "../ui/sam";
+
 
 const RelationFunction = () => {
   return (
