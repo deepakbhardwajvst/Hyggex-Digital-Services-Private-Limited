@@ -1,16 +1,15 @@
-
-
+import PropTypes from "prop-types";
 const MultySelectInput = (props) => {
   return (
     <div className="flex w-[848px] border h-[58px] px-[24px] py-[17px] rounded-[12px] border-[#217EEC]">
       <div className="flex-1">
-        <input
-          className="w-full pl placeholder-[#28262C] placeholder:font-semibold "
+        <p
+          className="w-full pl text-[#28262C] font-semibold "
           type="text"
           name=""
           id=""
-          placeholder={props.placeholder}
-        />
+
+        >{props.heading}</p>
       </div>
       <div>
         <svg
@@ -18,7 +17,8 @@ const MultySelectInput = (props) => {
           height="24"
           viewBox="0 0 24 24"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg">
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g id="Frame">
             <path
               id="Vector"
@@ -33,5 +33,7 @@ const MultySelectInput = (props) => {
     </div>
   );
 };
-
+MultySelectInput.propTypes = {
+  heading: PropTypes.string.isRequired,
+};
 export default MultySelectInput;

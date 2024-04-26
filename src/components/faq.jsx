@@ -10,9 +10,9 @@ const Faq = () => {
         </h1>
       </div>
       <div className="flex flex-col gap-8">
-        <MultySelectInput placeholder="Can education flashcards be used for all age groups?" />
-        <MultySelectInput placeholder="How do education flashcards work?" />
-        <MultySelectInput placeholder="Can education flashcards be used for test preparation?" />
+        <MultySelectInput heading="Can education flashcards be used for all age groups?" />
+        <MultySelectInput heading="How do education flashcards work?" />
+        <MultySelectInput heading="Can education flashcards be used for test preparation?" />
       </div>
     </div>
   );
